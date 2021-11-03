@@ -1,0 +1,144 @@
+.choose-type {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.choose-type li {
+  float: left;
+  margin: 0 5px 0 0;
+  width: 134px;
+  height: 52px;
+  position: relative;
+}
+
+.choose-type label,
+.choose-type input {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.choose-type input[type="radio"] {
+  opacity: 0.01;
+  z-index: 100;
+}
+
+.choose-type input[type="radio"]:checked + label,
+.Checked + label {
+  background: #DDD;
+  color: black;
+}
+
+.choose-type label {
+  height: 52px;
+  width: 134px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6C6C74;
+  border: none;
+  transition: 400ms;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 50px;
+  cursor: pointer;
+  z-index: 90;
+}
+
+.choose-type label:hover {
+  background: #DDD;
+  color: black;
+  transition: 400ms;
+}
+
+.contact-container {
+  form {
+    max-width: 500px;
+    width: 100%;
+
+    > div {
+      display: flex;
+      flex-flow: column;
+
+      > input {
+        height: 50px;
+        border-radius: 50px;
+        border: none;
+        background-color: #6C6C74;
+        padding-left: 20px;
+        font-size: 14px;
+        font-weight: bold;
+        color: white;
+      }
+
+      > input:focus-visible {
+        outline: none;
+      }
+
+      > textarea {
+        border-radius: 30px;
+        border: none;
+        outline: none;
+        background-color: #6C6C74;
+        padding-left: 20px;
+        padding-top: 20px;
+        font-weight: bold;
+        font-size: 14px;
+        color: white;
+        height: 118px;
+      }
+
+      > label {
+        font-size: 14px;
+        font-weight: bold;
+        margin-top: 21px;
+        margin-bottom: 12px;
+        margin-left: 20px;
+      }
+    }
+
+    > button {
+      height: 52px;
+      width: 134px;
+      background-color: #6C6C74;
+      border: none;
+      transition: 400ms;
+      font-size: 14px;
+      font-weight: bold;
+      border-radius: 50px;
+      cursor: pointer;
+      z-index: 90;
+      margin-top: 23px;
+      color: white;
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+      justify-content: center;
+    }
+
+    > button:hover {
+      background: #DDD;
+      color: black;
+      transition: 400ms;
+    }
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .contact-container {
+    form {
+      > div {
+        > textarea {
+          height: 60px;
+        }
+      }
+    }
+  }
+}

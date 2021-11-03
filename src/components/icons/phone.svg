@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30.881" height="30.879" viewBox="0 0 30.881 30.879">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="30.881" height="30.879" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Repeat_Grid_1" data-name="Repeat Grid 1" clip-path="url(#clip-path)">
+    <g transform="translate(-1697 -196)">
+      <path id="telephone-fill_1_" data-name="telephone-fill (1)" d="M3.639.985A3.368,3.368,0,0,1,8.676,1.3L12.14,5.751a3.367,3.367,0,0,1,.608,2.883l-1.056,4.227a1.309,1.309,0,0,0,.344,1.241l4.742,4.742a1.309,1.309,0,0,0,1.243.344l4.225-1.056a3.368,3.368,0,0,1,2.883.608L29.58,22.2a3.367,3.367,0,0,1,.315,5.039l-2,2a5.359,5.359,0,0,1-5.553,1.355,35.964,35.964,0,0,1-13.53-8.531A35.964,35.964,0,0,1,.286,8.534,5.365,5.365,0,0,1,1.643,2.981Z" transform="translate(1697 195.999)" fill="#b44647" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

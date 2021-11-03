@@ -1,0 +1,117 @@
+header {
+  height: 128px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: white;
+
+  .icon-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 355px;
+    height: 100%;
+
+    img {
+      height: 62px;
+      width: 197px;
+    }
+  }
+
+  nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    .nav-item {
+      cursor: pointer;
+      width: auto;
+      height: auto;
+      font-size: 24px;
+      font-weight: normal;
+      margin: 0 27px 0 27px;
+    }
+  }
+
+  .contact-button-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 443px;
+    height: 100%;
+
+    > div {
+      cursor: pointer;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      align-items: center;
+      background-color: black;
+      color: white;
+      width: 225px;
+      height: 66px;
+      font-weight: normal;
+      font-size: 24px;
+    }
+  }
+}
+
+.menu-button-container {
+  display: none;
+}
+
+@media only screen and (max-width: 1120px) {
+  header {
+    background: none;
+    justify-content: flex-end;
+
+    .icon-container {
+      margin-right: auto;
+      margin-left: 0;
+    }
+
+    nav {
+      display: none;
+    }
+
+    .contact-button-container {
+      display: none;
+    }
+
+    .menu-button-container {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: flex-end;
+      padding-right: 50px;
+      align-items: center;
+      width: 100px;
+      height: 100%;
+    }
+
+    .menu-button {
+      img {
+        max-height: 50px;
+        max-width: 50px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    .contact-button-container {
+      display: none;
+    }
+  }
+}
+
+//1120px
+//600px

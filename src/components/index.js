@@ -1,0 +1,9 @@
+export {default as About} from "./About";
+export {default as Contact} from "./Contact";
+export {default as Header} from "./Header";
+export {default as Kvality} from "./Kvality";
+export {default as LandingPage} from "./LandingPage";
+export {default as Projekty} from "./Projekty";
+export {default as Sluzby} from "./Sluzby";
+export {default as Footer} from "./Footer";
+export {default as MobileNav} from "./MobileNav";

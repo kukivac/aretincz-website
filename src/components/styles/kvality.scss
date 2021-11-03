@@ -1,0 +1,131 @@
+.kvality-container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 670px;
+  padding-left: 117px;
+  padding-right: 117px;
+
+  > div {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.30);
+    max-width: 1700px;
+    height: 304px;
+    border-radius: 25px;
+    padding-top: 40px;
+
+    .right-border {
+      border-right: #707070 1px solid;
+    }
+
+    section {
+      width: 25%;
+      padding: 40px;
+      display: flex;
+      flex-flow: column;
+      justify-content: flex-start;
+
+      h3 {
+        font-size: 32px;
+        font-weight: 400;
+        margin: 10px 0 0;
+      }
+
+      h4::before {
+        content: "";
+        display: block;
+        height: 38px;
+        width: 18px;
+        background-color: #EC3D3C;
+        z-index: -2;
+        position: absolute;
+      }
+
+      .heading-cest::before {
+        transform: rotate(90deg);
+      }
+
+      .heading-kvalita::before {
+        margin-left: 85px;
+      }
+
+      .heading-respekt::before {
+        transform: rotate(90deg);
+        margin-left: 45px;
+        margin-top: 15px;
+      }
+
+      h4 {
+        font-size: 34px;
+        font-weight: 400;
+        margin: 0;
+      }
+
+      p {
+        font-size: 20px;
+        font-weight: 300;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .kvality-container {
+    > div {
+      padding-top: unset;
+      justify-content: center;
+      align-items: center;
+      height: auto;
+      section{
+        width: 50%;
+      };
+    }
+
+    .kvality-section {
+      display: none;
+      min-height: 230px;
+    }
+
+    .kvality-section.m-shown {
+      display: flex;
+    }
+
+    .right-border {
+      border-right: none !important;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .kvality-container {
+    > div {
+      flex-flow: column;
+      justify-content: center;
+      align-items: center;
+      height: auto;
+      padding-left: 10px;
+      padding-right: 10px;
+      section{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        width: 100%;
+      };
+    }
+
+    .kvality-section {
+      display: none;
+    }
+
+    .kvality-section.m-shown {
+      display: flex;
+    }
+  }
+}
+
+//1400px
+//600px

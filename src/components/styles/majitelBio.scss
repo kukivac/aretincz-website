@@ -1,0 +1,90 @@
+.moravec-info {
+  display: flex;
+  flex-flow: row nowrap;
+  max-width: 583px;
+  height: 162px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  background-color: white;
+
+  .moravec-face {
+    margin-right: 15px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 147px;
+    padding: 19px;
+
+    * {
+      margin: 0;
+    }
+
+    img {
+      width: 106px;
+      height: 106px;
+    }
+  }
+
+  .moravec-bio {
+    display: flex;
+    flex-flow: column;
+    width: 436px;
+    padding-right: 15px;
+
+    h6 {
+      font-weight: 300;
+      font-size: 17px;
+      margin-top: 35px;
+      margin-bottom: 14px;
+      color: #EC3D3C;
+    }
+
+    p {
+      font-size: 15px;
+      font-weight: normal;
+      color: #39383E;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .landing-page-container {
+    .moravec-info {
+      margin-right: 50px;
+    }
+  }
+
+  .moravec-info {
+    height: unset;
+
+    .moravec-face {
+      width: 108px;
+      height: 108px;
+      padding: 19px;
+
+      * {
+        margin: 0;
+      }
+
+      img {
+        width: 70px;
+        height: 70px;
+      }
+    }
+
+    .moravec-bio {
+      width: 270px;
+      padding-right: 15px;
+
+      h6 {
+        font-size: 12px;
+        margin-top: 25px;
+        margin-bottom: 0;
+      }
+
+      p {
+        font-size: 12px;
+      }
+    }
+  }
+}

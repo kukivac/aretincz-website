@@ -1,0 +1,169 @@
+.contact-container {
+  position: fixed;
+  width: 757px;
+  height: 100%;
+  background-color: #39383E;
+  color: white;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  top: 0;
+  z-index: 5;
+
+  .close-contact {
+    position: absolute;
+    margin-right: 650px;
+    cursor: pointer;
+  }
+
+  .close-contact::before {
+    content: "\00d7";
+    font-size: 80px;
+  }
+
+  a {
+    color: white;
+  }
+
+  .contact-info {
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    max-width: 444px;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 40px;
+
+    a {
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+
+      .icon-container {
+        height: 30px;
+        width: 30px;
+        margin-bottom: 11px;
+
+        img {
+          max-width: 30px;
+          max-height: 30px;
+        }
+      }
+    }
+
+    p {
+      margin: 0;
+    }
+  }
+
+  h1 {
+    font-weight: bold;
+    font-size: 50px;
+  }
+}
+
+
+.contact-container.visible {
+  right: 0;
+  animation: slideIn 0.5s forwards;
+}
+
+.contact-container.hidden {
+  right: -757px;
+  animation: slideOut 0.5s forwards;
+}
+
+@keyframes slideIn {
+  0% {
+    right: -757px
+  }
+  100% {
+    right: 0;
+  }
+}
+
+@keyframes slideOut {
+  0% {
+    right: 0
+  }
+  100% {
+    right: -757px;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .contact-container {
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    overflow: visible;
+
+    h1 {
+      font-size: 40px;
+      margin-top: 15px;
+      margin-bottom: unset;
+      text-align: center;
+    }
+
+    .close-contact {
+      margin-right: unset;
+      left: 10px;
+      top: -10px;
+    }
+
+    .contact-info {
+      display: none;
+    }
+
+    form {
+      margin-left: 60px;
+      margin-right: 60px;
+
+      .choose-type {
+        flex-flow: row wrap;
+        justify-content: center;
+
+        li {
+          margin-left: 5px;
+          margin-right: 5px;
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}
+/*
+@media only screen and (max-height: 600px) {
+  .contact-container {
+
+    h1 {
+
+      margin-bottom: 5px;
+
+    }
+
+    .close-contact {
+
+    }
+
+    .contact-info {
+
+    }
+
+    form {
+
+      > label {
+        margin-top: 5px;
+      }
+
+      .choose-type {
+
+
+        li {
+
+        }
+      }
+    }
+  }
+}*/
