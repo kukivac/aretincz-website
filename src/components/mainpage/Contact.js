@@ -1,7 +1,7 @@
 import React from "react";
-import mapPin from "./icons/mapPin.svg"
-import phone from "./icons/phone.svg"
-import mail from "./icons/mail.svg"
+import mapPin from "../icons/mapPin.svg"
+import phone from "../icons/phone.svg"
+import mail from "../icons/mail.svg"
 
 class Contact extends React.Component {
     constructor(props) {

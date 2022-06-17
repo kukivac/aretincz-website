@@ -1,8 +1,8 @@
-import "./styles/header.scss";
+import "../styles/header.scss";
 import {Component} from "react";
-import menu from "./icons/menu.png"
-import logo from "./images/logo_cervene_nabilepozadi.png"
-
+import {Routes, Route, Link } from "react-router-dom";
+import menu from "../icons/menu.png"
+import logo from "../images/logo_cervene_nabilepozadi.png"
 //import aretinIcon from "./images/aretinLogo.png";
 
 class Header extends Component {
@@ -15,6 +15,7 @@ class Header extends Component {
                     </a>
                 </section>
                 <nav>
+
                     <div className={"nav-item"}>
                         <a href={"#header"}>HOME</a>
                     </div>
@@ -25,7 +26,7 @@ class Header extends Component {
                         <a href={"#about"}>O&nbsp;NÁS</a>
                     </div>
                     <div className={"nav-item"}>
-                        <a href={"#projekty"}>NAŠE&nbsp;PROJEKTY</a>
+                        <Link to="/projekty">NAŠE&nbsp;PROJEKTY</Link>
                     </div>
                 </nav>
                 <section className={"contact-button-container"}>

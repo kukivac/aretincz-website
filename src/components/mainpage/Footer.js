@@ -1,8 +1,8 @@
 import {Component} from "react";
-import mailIcon from "./icons/mail1.png"
-import houseIcon from "./icons/address1.png"
-import phoneIcon from "./icons/phone1.png"
-import logo from "./images/logo_cervene_nabilepozadi.png";
+import mailIcon from "../icons/mail1.png"
+import houseIcon from "../icons/address1.png"
+import phoneIcon from "../icons/phone1.png"
+import logo from "../images/logo_cervene_nabilepozadi.png";
 
 class Footer extends Component {
     render() {

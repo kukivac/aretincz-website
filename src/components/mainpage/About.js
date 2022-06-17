@@ -1,8 +1,8 @@
 import {Component} from "react";
-import aboutImage from "./images/mapsIllustration.png"
-import userIcon from "./icons/user.svg"
-import cupIcon from "./icons/cup.svg"
-import globeIcon from "./icons/globe.svg"
+import aboutImage from "../images/mapsIllustration.png"
+import userIcon from "../icons/user.svg"
+import cupIcon from "../icons/cup.svg"
+import globeIcon from "../icons/globe.svg"
 import MajitelBio from "./MajitelBio";
 
 class About extends Component {

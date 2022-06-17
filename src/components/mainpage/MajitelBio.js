@@ -1,4 +1,4 @@
-import moravecFace from "./images/moravec.png";
+import moravecFace from "../images/moravec.png";
 import {Component} from "react";
 
 class MajitelBio extends Component {

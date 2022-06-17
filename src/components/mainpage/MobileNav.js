@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-
+import {Link} from "react-router-dom";
 
 class MobileNav extends Component {
     render() {
@@ -11,8 +11,8 @@ class MobileNav extends Component {
                 <nav>
                     <a href={"#header"} onClick={this.props.toggleMenuClick}>DOMŮ</a>
                     <a href={"#sluzby"} onClick={this.props.toggleMenuClick}>NAŠE SLUŽBY</a>
-                    <a href={"#about"} onClick={this.props.toggleMenuClick}>O NÁS</a>
-                    <a href={"#projekty"} onClick={this.props.toggleMenuClick}>NAŠE PROJEKTY</a>
+                    <a href={"#about"} >O NÁS</a>
+                    <Link onClick={this.props.toggleMenuClick} to="/projekty">NAŠE PROJEKTY</Link>
                     <a href={"#null"} onClick={this.props.toggleMenuContactClick}>NAPIŠTE NÁM</a>
                 </nav>
             </div>

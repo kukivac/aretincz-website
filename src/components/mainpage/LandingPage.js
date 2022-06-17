@@ -1,5 +1,5 @@
-import "./styles/landingPage.scss";
-import envelope from "./icons/address.svg";
+import "../styles/landingPage.scss";
+import envelope from "../icons/address.svg";
 import {Component} from "react";
 import MajitelBio from "./MajitelBio.js";
 

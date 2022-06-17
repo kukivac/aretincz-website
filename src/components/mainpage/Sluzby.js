@@ -1,7 +1,7 @@
 import {Component} from "react";
-import geoSystemyIcon from "./icons/networkIllustration.svg";
-import pruzkumIcon from "./icons/magnifieIllustration.svg";
-import kartografieIcon from "./icons/mapIllustration.svg";
+import geoSystemyIcon from "../icons/networkIllustration.svg";
+import pruzkumIcon from "../icons/magnifieIllustration.svg";
+import kartografieIcon from "../icons/mapIllustration.svg";
 
 class Sluzby extends Component {
     constructor(props) {
