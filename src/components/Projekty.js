@@ -1,26 +1,40 @@
 import {Component} from "react";
-import data from "./data/data.json"
+import data from "./data/carouselItems.json"
 
 class Carousel extends Component {
     render() {
         let carouselItem = this.props.item;
         let output = Object.entries(data.carouselItems).map(([key, value]) => ({key, value}));
-        let something = output.map((item, i) => {
+        let carousel_images = (images) => {
+            let images_div = [];
+            images.forEach((data) => {
+                images_div.push(
+                    <div>
+                        {/*<a href={data.path}>*/}
+                            <img src={data.path} alt={data.alt}/>
+                        {/*</a>*/}
+                    </div>
+                )
+            })
+            return images_div;
+        }
+        let carousel_item = output.map((item) => {
             return (
                 <div className={carouselItem === parseInt(item.key) ? "carousel-item active" : "carousel-item"}>
                     <div>
                         <h3>{item.value.nadpis}</h3>
                         <p>{item.value.description}</p>
                     </div>
-                    <div>
-                        <img src={"images/" + item.value.image} alt={"carousel item"}/>
+                    <div className={"carousel-item-images"}>
+                        {carousel_images(item.value.images)}
                     </div>
                 </div>
             )
         })
+
         return (
             <div className={"carousel-container"}>
-                {something}
+                {carousel_item}
             </div>
         );
     }
@@ -30,7 +44,7 @@ class CarouselNav extends Component {
     render() {
         let carouselItem = this.props.activeItem;
         let output = Object.entries(data.carouselItems).map(([key, value]) => ({key, value}));
-        let something = output.map((item, i) => {
+        let something = output.map((item) => {
             return (
                 <div className={carouselItem === parseInt(item.key) ? "carousel-nav-item selected" : "carousel-nav-item"} onClick={this.props.changeCarouselItem} data-id={item.key}>
                     {item.key}

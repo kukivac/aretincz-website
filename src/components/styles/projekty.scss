@@ -22,28 +22,33 @@
 
   .carousel-item {
     display: none;
-    flex-flow: row;
+    flex-flow: column;
     min-height: 300px;
 
+    .carousel-item-images {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      padding-bottom: 15px;
+      padding-top: 15px;
+      max-width: 860px;
+
+      img {
+        max-width: 425px;
+        max-height: 425px;
+        height: auto;
+        width: auto;
+        margin: 2px;
+      }
+    }
 
     > div:first-child {
-      max-width: 680px;
+      max-width: 850px;
       height: auto;
 
       p {
         text-align: justify;
       }
-    }
-
-    > div:nth-child(2) {
-      padding-left: 50px;
-      display: flex;
-      flex-flow: column;
-      justify-content: center;
-    }
-
-    img {
-      max-height: 370px;
     }
   }
 
@@ -108,19 +113,31 @@
       flex-flow: column;
       align-items: center;
 
-      img {
-        max-height: unset;
-        max-width: 200px;
-      }
-
-      > div {
-        margin-bottom: 15px;
-      }
-
-      > div:nth-child(2) {
+      .carousel-item-images {
         display: flex;
-        padding-left: unset;
+        flex-flow: row wrap;
+        max-width: 860px;
+        width: 100%;
+
+        img {
+          max-width: 300px;
+          max-height: 300px;
+          height: auto;
+          width: auto;
+          margin: 2px;
+        }
+
+        > div {
+          margin-bottom: 15px;
+        }
+
+        > div:nth-child(2) {
+          display: flex;
+          padding-left: unset;
+        }
       }
+
+
     }
   }
 }
@@ -138,12 +155,29 @@
       flex-flow: column;
       align-items: center;
 
-      img {
-        display: none;
+      .carousel-item-images {
+        display: flex;
+        flex-flow: row wrap;
+        max-width: 860px;
+        width: 100%;
+
+        img {
+          max-width: 300px;
+          max-height: 300px;
+          height: auto;
+          width: auto;
+          margin: 2px;
+
+          > div {
+            margin-bottom: 15px;
+          }
+
+          > div:nth-child(2) {
+            display: flex;
+            padding-left: unset;
+          }
+        }
       }
     }
   }
 }
-
-//900px
-//600px
