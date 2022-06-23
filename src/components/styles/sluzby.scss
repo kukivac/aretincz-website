@@ -60,7 +60,7 @@
           max-width: 77px;
         }
 
-        h2 {
+        h3 {
           min-height: 125px;
           margin-bottom: 20px;
         }
@@ -93,7 +93,7 @@
     margin: 0 0 0 80px;
   }
 
-  h1 {
+  h2 {
     text-align: center;
     font-size: 95px;
     font-weight: 800;
@@ -102,7 +102,7 @@
   }
 
   .sluzby-section {
-    h2 {
+    h3 {
       font-size: 46px;
       font-weight: 600;
       color: #281C27;
@@ -123,7 +123,7 @@
     padding-left: 60px;
     padding-right: 60px;
 
-    h1 {
+    h2 {
       font-size: 50px;
     }
 
@@ -145,7 +145,7 @@
           width: unset;
           align-items: center;
 
-          h2 {
+          h3 {
             text-align: center;
           }
 
@@ -196,7 +196,7 @@
     .sluzby-souhrn {
       > div:nth-child(2) {
         .sluzby-section.m-shown {
-          h2 {
+          h3 {
             font-size: 35px;
           }
         }

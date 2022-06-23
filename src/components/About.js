@@ -9,7 +9,7 @@ class About extends Component {
     render() {
         return (
             <div className={"about-container"} id={"about"}>
-                <h1>O&nbsp;NÁS</h1>
+                <h2>O&nbsp;NÁS</h2>
                 <div>
                     <section className={"illustration-container"}>
                         <img src={aboutImage} alt={"ilustrations"} className={"illustration"}/>

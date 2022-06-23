@@ -79,7 +79,7 @@ class Projekty extends Component {
     render() {
         return (
             <div className={"projekty-container"} id={"projekty"}>
-                <h1>NAŠE PROJEKTY</h1>
+                <h2>NAŠE PROJEKTY</h2>
                 <Carousel item={this.state.carouselItem}/>
                 <CarouselNav changeCarouselItem={this.changeCarouselItem} activeItem={this.state.carouselItem}/>
             </div>

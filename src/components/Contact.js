@@ -52,7 +52,7 @@ class Contact extends React.Component {
 
                 </span>
                 <div>
-                    <h1>Napište nám!</h1>
+                    <h2>Napište nám!</h2>
                 </div>
                 <div className={"contact-info"}>
                     <a href={"https://mapy.cz/zakladni?x=14.4170538&y=50.0678970&z=17&source=addr&id=13974202"}>

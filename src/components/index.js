@@ -7,3 +7,5 @@ export {default as Projekty} from "./Projekty";
 export {default as Sluzby} from "./Sluzby";
 export {default as Footer} from "./Footer";
 export {default as MobileNav} from "./MobileNav";
+export {default as Homepage} from "./Homepage";
+export {default as PageNotFound} from "./PageNotFound";

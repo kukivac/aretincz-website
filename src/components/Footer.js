@@ -9,9 +9,9 @@ class Footer extends Component {
         return (
             <footer>
                 <div>
-                    <h1>
+                    <h2>
                         Chtěli byste poradit s&nbsp;projektem?
-                    </h1>
+                    </h2>
                     <div className={"contact-button"} onMouseDown={this.props.toggleContactClick}>
                         NAPIŠTE&nbsp;NÁM
                     </div>
@@ -29,7 +29,7 @@ class Footer extends Component {
                     </section>
                     <section>
                         <section>
-                            <h2>Kontakt</h2>
+                            <h3>Kontakt</h3>
                             <div>
                                 <div className={"icon-container"}>
                                     <img src={mailIcon} alt={"mail icon"}/>
@@ -50,7 +50,7 @@ class Footer extends Component {
                             </div>
                         </section>
                         <section>
-                            <h2>Info</h2>
+                            <h3>Info</h3>
                             <div>
                                 <p>ARETIN GEOINFORMATICS s.r.o.</p>
                             </div>
