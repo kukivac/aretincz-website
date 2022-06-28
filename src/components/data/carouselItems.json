@@ -6,12 +6,12 @@
       "images":[
         {
           "name": "klimaticka_regionalizace_1",
-          "path": "images/klimaticka_regionalizace_1.gif",
+          "path": "images/klimaticka_regionalizace_1.webp",
           "alt": "Klimatická regionalizace obrázek 1"
         },
         {
           "name": "klimaticka_regionalizace_2",
-          "path": "images/klimaticka_regionalizace_2.gif",
+          "path": "images/klimaticka_regionalizace_2.webp",
           "alt": "Klimatická regionalizace obrázek 2"
         }
       ]
@@ -22,12 +22,12 @@
       "images":[
         {
           "name": "evapotranspiracni_modelovani_1",
-          "path": "images/evapotranspiracni_modelovani_1.gif",
+          "path": "images/evapotranspiracni_modelovani_1.webp",
           "alt": "Evapotranspirační Modelovani obrázek 1"
         },
         {
           "name": "evapotranspiracni_modelovani_2",
-          "path": "images/evapotranspiracni_modelovani_2.gif",
+          "path": "images/evapotranspiracni_modelovani_2.webp",
           "alt": "Evapotranspirační Modelovani obrázek 2"
         }
       ]
@@ -38,12 +38,12 @@
       "images":[
         {
           "name": "regionalizacni_modelovani_1",
-          "path": "images/regionalizacni_modelovani_1.gif",
+          "path": "images/regionalizacni_modelovani_1.webp",
           "alt": "Regionalizační modelování obrázek 1"
         },
         {
           "name": "regionalizacni_modelovani_2",
-          "path": "images/regionalizacni_modelovani_2.gif",
+          "path": "images/regionalizacni_modelovani_2.webp",
           "alt": "Regionalizační modelování obrázek 2"
         }
       ]
@@ -54,12 +54,12 @@
       "images":[
         {
           "name": "topologicke_modelovani_a_simulace_1",
-          "path": "images/topologicke_modelovani_a_simulace_1.gif",
+          "path": "images/topologicke_modelovani_a_simulace_1.webp",
           "alt": "Topologické modelování a simulace obrázek 1"
         },
         {
           "name": "topologicke_modelovani_a_simulace_2",
-          "path": "images/topologicke_modelovani_a_simulace_2.gif",
+          "path": "images/topologicke_modelovani_a_simulace_2.webp",
           "alt": "Topologické modelování a simulace obrázek 2"
         }
       ]
@@ -70,12 +70,12 @@
       "images":[
         {
           "name": "druzicove_mapove_schema_1",
-          "path": "images/druzicove_mapove_schema_1.gif",
+          "path": "images/druzicove_mapove_schema_1.webp",
           "alt": "Družicové mapové schéma obrázek 1"
         },
         {
           "name": "druzicove_mapove_schema_2",
-          "path": "images/druzicove_mapove_schema_2.gif",
+          "path": "images/druzicove_mapove_schema_2.webp",
           "alt": "Družicové mapové schéma obrázek 2"
         }
       ]
@@ -86,12 +86,12 @@
       "images":[
         {
           "name": "tvorba_elevacnich_modelu_1",
-          "path": "images/tvorba_elevacnich_modelu_1.gif",
+          "path": "images/tvorba_elevacnich_modelu_1.webp",
           "alt": "Tvorba elevačních modelů obrázek 1"
         },
         {
           "name": "tvorba_elevacnich_modelu_2",
-          "path": "images/tvorba_elevacnich_modelu_2.gif",
+          "path": "images/tvorba_elevacnich_modelu_2.webp",
           "alt": "Tvorba elevačních modelů obrázek 2"
         }
       ]
@@ -102,22 +102,22 @@
       "images":[
         {
           "name": "restaurace_a_rekonstrukce_starych_map_1",
-          "path": "images/restaurace_a_rekonstrukce_starych_map_1.gif",
+          "path": "images/restaurace_a_rekonstrukce_starych_map_1.webp",
           "alt": "Restaurace a rekonstrukce starých map obrázek 1"
         },
         {
           "name": "restaurace_a_rekonstrukce_starych_map_2",
-          "path": "images/restaurace_a_rekonstrukce_starych_map_2.gif",
+          "path": "images/restaurace_a_rekonstrukce_starych_map_2.webp",
           "alt": "Restaurace a rekonstrukce starých map obrázek 2"
         },
         {
           "name": "restaurace_a_rekonstrukce_starych_map_3",
-          "path": "images/restaurace_a_rekonstrukce_starych_map_3.gif",
+          "path": "images/restaurace_a_rekonstrukce_starych_map_3.webp",
           "alt": "Restaurace a rekonstrukce starých map obrázek 3"
         },
         {
           "name": "restaurace_a_rekonstrukce_starych_map_4",
-          "path": "images/restaurace_a_rekonstrukce_starych_map_4.gif",
+          "path": "images/restaurace_a_rekonstrukce_starych_map_4.webp",
           "alt": "Restaurace a rekonstrukce starých map obrázek 4"
         }
       ]
@@ -128,12 +128,12 @@
       "images":[
         {
           "name": "jizda_po_farmarskem_bloku_1",
-          "path": "images/jizda_po_farmarskem_bloku_1.gif",
+          "path": "images/jizda_po_farmarskem_bloku_1.webp",
           "alt": "Jízda po farmářském bloku obrázek 1"
         },
         {
           "name": "jizda_po_farmarskem_bloku_2",
-          "path": "images/jizda_po_farmarskem_bloku_2.gif",
+          "path": "images/jizda_po_farmarskem_bloku_2.webp",
           "alt": "Jízda po farmářském bloku obrázek 2"
         }
       ]
@@ -144,7 +144,7 @@
       "images":[
         {
           "name": "transformace_souradnic_v_digitalni_kartografii_a_geoinformatice_1",
-          "path": "images/transformace_souradnic_v_digitalni_kartografii_a_geoinformatice_1.gif",
+          "path": "images/transformace_souradnic_v_digitalni_kartografii_a_geoinformatice_1.webp",
           "alt": "Transformace souřadnic v digitální kartograii a geoinformatice obrázek 1"
         }
       ]
