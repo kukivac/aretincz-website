@@ -1,9 +1,9 @@
 import "./styles/header.scss";
 import {Component} from "react";
-import menu from "./icons/menu.png"
-import logo from "./images/logo_cervene_nabilepozadi.png"
+import menu from "./icons/menu.webp"
+import logo from "./images/logo_cervene_nabilepozadi.webp"
 
-//import aretinIcon from "./images/aretinLogo.png";
+//import aretinIcon from "./images/aretinLogo.webp";
 
 class Header extends Component {
     render() {

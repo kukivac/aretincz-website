@@ -1,5 +1,5 @@
 import {Component} from "react";
-import aboutImage from "./images/mapsIllustration.png"
+import aboutImage from "./images/mapsIllustration-min.webp"
 import userIcon from "./icons/user.svg"
 import cupIcon from "./icons/cup.svg"
 import globeIcon from "./icons/globe.svg"

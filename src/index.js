@@ -7,9 +7,6 @@ import {Routes} from "react-router";
 import {PageNotFound, Homepage} from "./components";
 
 class App extends React.Component {
-    constructor(props) {
-        super(props);
-    }
 
     render() {
         return (
@@ -24,8 +21,7 @@ class App extends React.Component {
                 </BrowserRouter>
             </React.StrictMode>
         );
-    }
-    ;
+    };
 }
 
 ReactDOM.render(<App/>, document.getElementById('root'));

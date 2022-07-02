@@ -1,12 +1,6 @@
 import {Component} from "react";
-import {Header, LandingPage} from "./index";
-import envelope from "./icons/address.svg";
-import MajitelBio from "./MajitelBio";
 
 class PageNotFound extends Component {
-    constructor(props) {
-        super(props);
-    }
 
     render() {
         return (
