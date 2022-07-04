@@ -119,6 +119,21 @@
           "name": "restaurace_a_rekonstrukce_starych_map_4",
           "path": "images/restaurace_a_rekonstrukce_starych_map_4.webp",
           "alt": "Restaurace a rekonstrukce starých map obrázek 4"
+        },
+        {
+          "name": "restaurace_a_rekonstrukce_starych_map_5",
+          "path": "images/restaurace_a_rekonstrukce_starych_map_5.webp",
+          "alt": "Restaurace a rekonstrukce starých map obrázek 5"
+        },
+        {
+          "name": "restaurace_a_rekonstrukce_starych_map_6",
+          "path": "images/restaurace_a_rekonstrukce_starych_map_6.webp",
+          "alt": "Restaurace a rekonstrukce starých map obrázek 6"
+        },
+        {
+          "name": "restaurace_a_rekonstrukce_starych_map_7",
+          "path": "images/restaurace_a_rekonstrukce_starych_map_7.webp",
+          "alt": "Restaurace a rekonstrukce starých map obrázek 7"
         }
       ]
     },
