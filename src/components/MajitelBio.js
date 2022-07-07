@@ -5,11 +5,11 @@ class MajitelBio extends Component {
     render() {
         return (
             <div className={"moravec-info"}>
-                <section className={"moravec-face"}>
+                <div className={"moravec-face"}>
                     <img src={moravecFace} alt={"Lukáš Moravec"}/>
-                </section>
+                </div>
                 <section className={"moravec-bio"}>
-                    <h6>Lukáš Moravec - ředitel společnosti</h6>
+                    <h2>Lukáš Moravec - ředitel společnosti</h2>
                     <p>Prioritou společnosti je individuální přístup k&nbsp;zákazníkovi a&nbsp;snaha uspokojit co nejlépe jeho potřeby a&nbsp;zájmy.</p>
                 </section>
             </div>

@@ -31,16 +31,30 @@
       justify-content: center;
       padding-bottom: 15px;
       padding-top: 15px;
-      max-width: 860px;
+      max-width: 920px;
       max-height: 800px;
       overflow-y: auto;
-
+.projekty-image-container{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
       img {
         max-width: 425px;
-        max-height: 425px;
+        //max-height: 425px;
         height: auto;
         width: auto;
         margin: 2px;
+      }
+      p{
+        font-size: 12px;
+        font-style: italic;
+        padding-top: 12px;
+        max-width: 425px;
+        height: auto;
+        width: auto;
+        margin: 2px;
+        text-align: center;
       }
     }
 
@@ -178,6 +192,12 @@
             display: flex;
             padding-left: unset;
           }
+        }
+        p{
+          max-width: 300px;
+          height: auto;
+          width: auto;
+          margin: 2px;
         }
       }
     }

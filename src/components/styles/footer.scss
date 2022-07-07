@@ -40,7 +40,7 @@ footer {
     align-items: center;
     justify-content: space-evenly;
     //image s "navigaci"
-    > section:first-child {
+    > .footer-dom-section:first-child {
       display: flex;
       flex-flow: column;
       align-items: center;
@@ -60,7 +60,7 @@ footer {
       }
     }
 
-    > section:nth-child(2) {
+    > .footer-dom-section:nth-child(2) {
       max-width: 433px;
       display: flex;
       flex-flow: row nowrap;
@@ -124,13 +124,13 @@ footer {
       padding-top: 15px;
       flex-flow: column;
 
-      > section:first-child {
+      > .footer-dom-section:first-child {
         > div:nth-child(2) {
           margin-top: 10px;
         }
       }
 
-      > section:nth-child(2) {
+      > .footer-dom-section:nth-child(2) {
         margin-top: 15px;
         justify-content: space-evenly;
 

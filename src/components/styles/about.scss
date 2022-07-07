@@ -18,14 +18,14 @@
     flex-flow: row nowrap;
     justify-content: space-between;
 
-    section {
+    .about-dom-section {
       display: flex;
       flex-flow: column;
       justify-content: center;
       width: 50%;
     }
 
-    section:nth-child(2) {
+    .about-dom-section:nth-child(2) {
       margin-left: 50px;
       max-width: 544px;
     }
@@ -45,7 +45,7 @@
       }
     }
 
-    section:first-child {
+    .about-dom-section:first-child {
       .illustration {
         max-width: 780px;
         max-height: 560px;
@@ -69,7 +69,7 @@
       }
 
 
-      section:nth-child(2) {
+      .about-dom-section:nth-child(2) {
         max-width: unset;
         width: auto;
         margin-left: unset;
@@ -83,7 +83,7 @@
         }
       }
 
-      section:first-child {
+      .about-dom-section:first-child {
         .illustration {
         }
       }

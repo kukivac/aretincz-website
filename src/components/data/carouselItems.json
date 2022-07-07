@@ -1,6 +1,7 @@
 {
   "carouselItems": {
     "1": {
+      "id": 1,
       "nadpis": "KLIMATICKÁ REGIONALIZACE",
       "description": "Geoinformatické modelování klimatické regionalizace bylo založeno na vstupu dat z třicetileté řady měření teplot a srážek na klimatologických stanicích z let 1961 až 1990 a na užití absolutních a korigovaných altimetrických dat. V řešení pomocí přímých měření - průměrných ročních teplot a srážek byly aplikovány běžné statistické postupy. K formování zprostředkujících veličin - trvání období s převládáním teplot a trvání hlavního období sucha byly použity různé modifikace metody součtových řad. Uplatnil se vliv morfometrických charakteristik sklonitosti, expozice, slunečního ozáření, konvexní a konkávní konfigurace reliéfu.",
       "images":[
@@ -17,6 +18,7 @@
       ]
     },
     "2": {
+      "id": 2,
       "nadpis": "EVAPOTRANSPIRAČNÍ MODELOVÁNÍ",
       "description": "Ovzdušné srážky jsou jedním prvkem vodní bilance a evapotranspirace jako výpar z různého typu povrchu zejména standardního zatravnění je dalším významným prvkem vodní bilance. Metodika FAO stanovuje výpočet evapotranspirace Penman - Monteith rovnicemi. Výpočet pro daný bod a čas lze uskutečnit ze znalosti údajů o lokalizaci, výšce, teplotách, vlhkosti vzduchu, tlaku vodní páry, větru, slunečním svitu atd. Mezi výškami jako nezávisle proměnnou a rozdíly srážky - evapotranspirace nebo podíly srážky/evapotranspirace jako závislými proměnnými existují korelace a regresní vztahy.\nUkázka evapotranspiračního modelování pro území České republiky je na mapkách.",
       "images":[
@@ -33,6 +35,7 @@
       ]
     },
     "3": {
+      "id": 3,
       "nadpis": "REGIONALIZAČNÍ MODELOVÁNÍ",
       "description": "V každém státě existují oblasti s méně příznivými podmínkami pro zemědělskou činnost. Vedle parametrů předepsaných Evropskou unií je možné ke stanovení zmíněných oblastí použít národní kriteria na bázi klimatické regionalizace. Pro zařazení konkrétního katastrálního území do oblasti může platit podmínka, že zvolené hodnoty platí pro více než 40% jeho rozlohy katastrálního území.Proces je vizualizován pro okres Rakovník.",
       "images":[
@@ -49,6 +52,7 @@
       ]
     },
     "4": {
+      "id": 4,
       "nadpis": "TOPOLOGICKÉ MODELOVÁNÍ A SIMULACE",
       "description": "Podstata projektu spočívá v geoinformatickém modelování s topologickým generalizačním algoritmem. Prakticky se vychází se z lokalizace základních územních jednotek obcí České republiky. Řešení využívá sadu generalizačních programů s modifikovanými postupy vytváření generalizovaného grafu s ohledem na omezení algoritmu (topologicky, metricky i pomocí tematických atributů) tak, aby byla nalezena nadřazená sídla a určeny jim odpovídající regiony integrované původních základních územních jednotek. Základní územní jednotky respektují fyzicky geografickou tvářnost a dopravní soustavu konkrétních prostorů, protože vznikly z historicky daných katastrálních území.",
       "images":[
@@ -65,6 +69,7 @@
       ]
     },
     "5": {
+      "id": 5,
       "nadpis": "DRUŽICOVÉ MAPOVÉ SCHÉMA",
       "description": "V letech 2001 a 2002 byla realizována zakázka na výrobu družicových mapových schémat severní části Súdánu v měřítku 1:100 000 a 1: 50 000 pro potřeby geologického průzkumu (celkem kolem 60 000 km²).\nZákladním zdrojem pro tvorbu těchto mapových schémat byla multispektrální data pořízená družicí Landsat 7 (ETM+, 30 m rozlišení). Po kontrole radiometrické a geometrické přesnosti dat byla vytvořena vhodná barevná syntéza. Prostor 5 celých družicových scén byl transformován do souřadnicového systému WGS84. Pro zpřesnění transformace bylo provedeno zaměření identických bodů přímo v terénu pomocí GPS.",
       "images":[
@@ -81,6 +86,7 @@
       ]
     },
     "6": {
+      "id": 6,
       "nadpis": "TVORBA ELEVAČNÍCH MODELŮ",
       "description": "Byl zkonstruován digitální elevační model terénu (DEM) z obrazových dat pořízených družicí SPOT (prostorové rozlišení 10 metrů) území na jihovýchod od Prahy. DEM byl počítán na základě stereo efektu dvojice obrazových dat. Pro zvýšení přesnosti výpočtu DEM byla data rektifikována do souřadnicového systému S-42 s přesností na 1 pixel - polohová chyba byla na maximu rozlišení dat: kolem 11 metrů, přesnost ve výšce kolem 7 metrů. Extrakční algoritmus pracoval s desítkami vstupních parametrů a verifikačních procedur.\nFirma pracuje na konstrukci výškových modelů z běžných nezávislých snímků.",
       "images":[
@@ -97,47 +103,56 @@
       ]
     },
     "7": {
+      "id": 7,
       "nadpis": "RESTAURACE A REKONSTRUKCE STARÝCH MAP",
       "description": "Technologie rekonstrukce a restaurace starých map a textů jsou založeny na pořizování digitálních kartografických dat prostorovým skenováním. K dalším technologickým krokům patří prostorové transformace, případná integrace původních mapových listů a kartografické generalizace rastrových a vektorových dat.",
       "images":[
         {
           "name": "restaurace_a_rekonstrukce_starych_map_1",
           "path": "images/restaurace_a_rekonstrukce_starych_map_1.webp",
-          "alt": "Restaurace a rekonstrukce starých map obrázek 1"
+          "alt": "Restaurace a rekonstrukce starých map obrázek 1",
+          "desc": "Stará lékařská puplikace od Jana Jesenia z roku 1601"
         },
         {
           "name": "restaurace_a_rekonstrukce_starych_map_2",
           "path": "images/restaurace_a_rekonstrukce_starych_map_2.webp",
-          "alt": "Restaurace a rekonstrukce starých map obrázek 2"
+          "alt": "Restaurace a rekonstrukce starých map obrázek 2",
+          "desc": "Stará lékařská puplikace od Jana Jesenia z roku 1601"
         },
         {
           "name": "restaurace_a_rekonstrukce_starych_map_3",
           "path": "images/restaurace_a_rekonstrukce_starych_map_3.webp",
-          "alt": "Restaurace a rekonstrukce starých map obrázek 3"
+          "alt": "Restaurace a rekonstrukce starých map obrázek 3",
+          "desc": "Stará lékařská puplikace od Jana Jesenia z roku 1601"
         },
         {
           "name": "restaurace_a_rekonstrukce_starych_map_4",
           "path": "images/restaurace_a_rekonstrukce_starych_map_4.webp",
-          "alt": "Restaurace a rekonstrukce starých map obrázek 4"
+          "alt": "Restaurace a rekonstrukce starých map obrázek 4",
+          "desc": "Pohledová mapa Prahy od Josefa Daniela Hubera z roku 1769 včetně spojení původních 12 listů do jediného celku"
         },
         {
           "name": "restaurace_a_rekonstrukce_starych_map_5",
           "path": "images/restaurace_a_rekonstrukce_starych_map_5.webp",
-          "alt": "Restaurace a rekonstrukce starých map obrázek 5"
+          "alt": "Restaurace a rekonstrukce starých map obrázek 5",
+          "desc": "Pohledová mapa Prahy od Josefa Daniela Hubera z roku 1769 včetně spojení původních 12 listů do jediného celku"
         },
         {
           "name": "restaurace_a_rekonstrukce_starych_map_6",
           "path": "images/restaurace_a_rekonstrukce_starych_map_6.webp",
-          "alt": "Restaurace a rekonstrukce starých map obrázek 6"
+          "alt": "Restaurace a rekonstrukce starých map obrázek 6",
+          "desc": "Müllerova mapa Čech ve 25 listech, rok 1720"
         },
         {
           "name": "restaurace_a_rekonstrukce_starych_map_7",
           "path": "images/restaurace_a_rekonstrukce_starych_map_7.webp",
-          "alt": "Restaurace a rekonstrukce starých map obrázek 7"
+          "alt": "Restaurace a rekonstrukce starých map obrázek 7",
+          "desc": "Müllerova mapa Čech ve 25 listech, rok 1720"
         }
       ]
     },
     "8": {
+      "id": 8,
       "nadpis": "JÍZDA PO FARMÁŘSKÉM BLOKU",
       "description": "Pokud má farmářský blok nepravidelný a komplikovaný tvar, není určení směru jízdy jednoduchou záležitostí a je také závislé na šířce záběru zemědělského stroje. Celkové délky jízdy se při algoritmickém řešení mohou lišit až o 25%. Jízda stroje určovaná intuicí člověka bývá ještě mnohem delší. Tento fakt vedl k myšlence nalézt optimální jízdu (optimální trasování), které vede k výrazné úspoře pohonných hmot a dalším efektům jako je snížení finančních nákladů a zkrácení agrotechnických lhůt.\n",
       "images":[
@@ -154,6 +169,7 @@
       ]
     },
     "9": {
+      "id": 9,
       "nadpis": "TRANSFORMACE SOUŘADNIC V DIGITÁLNÍ KARTOGRAFII A GEOINFORMATICE",
       "description": "Většina ze známých kartografických a geoinformačních programových produktů umožňuje transformovat souřadnice, ale málokterý z nich dává uživateli možnost jejich výběru podle vlastností transformační metody. Máme-li dvě rovinné souřadnicové soustavy - původní (x, y), novou (X, Y) a jistý počet identických bodů, pak můžeme body, u nichž jsou známy souřadnice pouze v původní soustavě, přímo převést do souřadnic nové soustavy řadou jednoduchých transformací.",
       "images":[

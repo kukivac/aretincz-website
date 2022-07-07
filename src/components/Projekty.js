@@ -5,16 +5,28 @@ class Carousel extends Component {
     render() {
         let carouselItem = this.props.item;
         let output = Object.entries(data.carouselItems).map(([key, value]) => ({key, value}));
-        let carousel_images = (images) => {
+        let carousel_images = (images, id) => {
             let images_div = [];
             images.forEach((data) => {
-                images_div.push(
-                    <div>
-                        {/*<a href={data.path}>*/}
+                if(id === 7){
+                    images_div.push(
+                        <div className={"projekty-image-container"}>
+                            {/*<a href={data.path}>*/}
                             <img src={data.path} alt={data.alt}/>
-                        {/*</a>*/}
-                    </div>
-                )
+                            <p>{data.desc}</p>
+                            {/*</a>*/}
+                        </div>
+                    )
+                }else{
+                    images_div.push(
+                        <div className={"projekty-image-container"}>
+                            {/*<a href={data.path}>*/}
+                            <img src={data.path} alt={data.alt}/>
+                            {/*</a>*/}
+                        </div>
+                    )
+                }
+
             })
             return images_div;
         }
@@ -26,7 +38,7 @@ class Carousel extends Component {
                         <p>{item.value.description}</p>
                     </div>
                     <div className={"carousel-item-images"}>
-                        {carousel_images(item.value.images)}
+                        {carousel_images(item.value.images,item.value.id)}
                     </div>
                 </div>
             )

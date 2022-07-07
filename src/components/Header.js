@@ -9,11 +9,11 @@ class Header extends Component {
     render() {
         return (
             <header id={"header"}>
-                <section className={"icon-container"}>
+                <div className={"icon-container"}>
                     <a href={"#header"}>
                         <img src={logo} alt={"Aretin geoinformatics logo"}/>
                     </a>
-                </section>
+                </div>
                 <nav>
                     <div className={"nav-item"}>
                         <a href={"#header"}>HOME</a>
@@ -28,16 +28,16 @@ class Header extends Component {
                         <a href={"#projekty"}>NAŠE&nbsp;PROJEKTY</a>
                     </div>
                 </nav>
-                <section className={"contact-button-container"}>
+                <div className={"contact-button-container"}>
                     <div className={"contact-button"} onMouseDown={this.props.toggleContactClick}>
                         NAPIŠTE&nbsp;NÁM
                     </div>
-                </section>
-                <section className={"menu-button-container"}>
+                </div>
+                <div className={"menu-button-container"}>
                     <div className={"menu-button"}>
                         <img src={menu} alt={"menu icon"} onMouseDown={this.props.toggleMenuClick}/>
                     </div>
-                </section>
+                </div>
             </header>
         );
     }

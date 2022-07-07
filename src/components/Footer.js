@@ -17,7 +17,7 @@ class Footer extends Component {
                     </div>
                 </div>
                 <div>
-                    <section>
+                    <div className={"footer-dom-section"}>
                         <div>
                             <img src={logo} alt={"Aretin geoinformatics logo"}/>
                         </div>
@@ -26,8 +26,8 @@ class Footer extends Component {
                             <a href={"#sluzby"}>Naše&nbsp;služby</a>
                             <a href={"#projekty"}>Naše&nbsp;projekty</a>
                         </div>
-                    </section>
-                    <section>
+                    </div>
+                    <div className={"footer-dom-section"}>
                         <section>
                             <h3>Kontakt</h3>
                             <div>
@@ -61,7 +61,7 @@ class Footer extends Component {
                                 <p>DIČ: CZ09546766</p>
                             </div>
                         </section>
-                    </section>
+                    </div>
                 </div>
             </footer>
         );
