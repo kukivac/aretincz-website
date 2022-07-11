@@ -70,14 +70,17 @@
 
 
       .about-dom-section:nth-child(2) {
-        max-width: unset;
+        //max-width: unset;
         width: auto;
         margin-left: unset;
+        max-width: 100vw;
       }
 
       .about-section {
         width: auto;
         flex-flow: column;
+        max-width: 100vw;
+        padding: 5px;
         >img{
           margin-right: unset;
         }
