@@ -46,7 +46,7 @@ class Homepage extends Component {
     render() {
         return (
             <div>
-                <Contact visible={this.state.contactVisible} toggleContact={this.toggleContactClick}/>
+
                 <Header toggleContactClick={this.toggleContactClick} toggleMenuClick={this.toggleMenuClick}/>
                 <LandingPage toggleContactClick={this.toggleContactClick}/>
                 <Kvality/>
@@ -55,6 +55,7 @@ class Homepage extends Component {
                 <Projekty/>
                 <Footer toggleContactClick={this.toggleContactClick}/>
                 <MobileNav visible={this.state.menuVisible} toggleMenuClick={this.toggleMenuClick} toggleContactClick={this.toggleContactClick} toggleMenuContactClick={this.toggleMenuContactClick}/>
+                <Contact visible={this.state.contactVisible} toggleContact={this.toggleContactClick}/>
             </div>
         )
     }
