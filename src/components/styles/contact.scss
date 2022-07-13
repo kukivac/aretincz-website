@@ -9,6 +9,9 @@
   align-items: center;
   top: 0;
   z-index: 5;
+  max-height: 100vh;
+  min-height: 100vh;
+  overflow-y: scroll;
 
   .close-contact {
     position: absolute;
